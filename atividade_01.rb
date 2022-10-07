@@ -1,16 +1,16 @@
-oddCount = 1
-n = 0
-def oddCount
-    while 
-        oddCount < n
-        oddCount += 2 
-         n = n + 0 
-    end
-end
-oddCount
-
 puts "Digite um numero para descobrir os numeros impares que o antecedem: "
-n = gets.chomp.to_i
-puts "A quantidade de Numeros Impares positivos abaixo de #{n} é: #{oddCount}!" 
+number = gets.to_i
+
+total  =  0
+oddCount  =  1
+while  oddCount < number
+    oddCount  =  oddCount + 2
+    total  =  total + 1
+end
+puts "os Numeros Impares que antecedem o #{number} é: #{total}" 
+
+
+
+ 
 
 

@@ -1,6 +1,6 @@
 andar = 1
 odd = 1
-#metodo
+
 puts "informe a quantidade de andares?"
 torre = gets.chomp.to_i 
 

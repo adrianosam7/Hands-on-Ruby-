@@ -3,7 +3,7 @@ name = gets.chomp
 def isplindrome(name)
     name = name.downcase
     nameReverse = name.reverse
-    if name = nameReverse
+    if name === nameReverse
         puts 'Verdadeiro!!'
     else
         puts 'Falso!!'

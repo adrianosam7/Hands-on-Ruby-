@@ -11,12 +11,12 @@ def square(number)
     end
   
     concatenated = numberSquare.join('');
-    print "O quadrado de cada dígito separado, quando concatenado fica igual a: "
+    print "O a sequencia de numeros elevada ao quadrado é: "
     print concatenated
   
   end
   
-  puts "Informe um número com 4 dígitos: "
+  puts "Digite um numero ou uma sequencia numerica : "
   number = gets.chomp;
   
   square(number)
